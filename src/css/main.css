@@ -1,8 +1,10 @@
 body {
   background-color: rgba(27, 27, 50, 0.8);
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-  color: #fff;
+  
   text-align: center;
 }
 p {
@@ -11,4 +13,20 @@ p {
   font-weight: 300;
   text-align: center;
   font-family: "Courier New", Courier, monospace;
+}
+form{
+  margin-left: auto;
+  margin-right: auto;
+  width:500px;
+  background-color:rgb(76, 43, 199);
+}
+form * {
+  width:80%;
+  margin:5px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+label{
+  
 }
