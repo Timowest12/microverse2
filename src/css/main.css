@@ -1,0 +1,14 @@
+body {
+  background-color: rgba(27, 27, 50, 0.8);
+}
+h1 {
+  color: #fff;
+  text-align: center;
+}
+p {
+  color: #fff;
+  font-style: italic;
+  font-weight: 300;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
