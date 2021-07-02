@@ -4,7 +4,6 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
-  
   text-align: center;
 }
 p {
@@ -14,19 +13,23 @@ p {
   text-align: center;
   font-family: "Courier New", Courier, monospace;
 }
-form{
-  margin-left: auto;
-  margin-right: auto;
-  width:500px;
-  background-color:rgb(76, 43, 199);
+form {
+  margin: 20px auto;
+  padding: 20px 0;
+  width: 500px;
+  background-color: rgb(76, 43, 199);
 }
 form > * {
-  width:80%;
-  margin:5px;
-  display:block;
+  width: 80%;
+  margin: 5px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 .radiogroup * {
-  display:inline-block;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  background: chartreuse;
 }
